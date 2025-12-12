@@ -1,0 +1,13 @@
+asset,strategy,trades,total_pnl,final_capital
+AAPL,sma_strategy,8,-120.61,9879.39
+AAPL,ema_strategy,4,-107.217,9892.78
+AAPL,rsi_strategy,11,183.909,10183.9
+MSFT,sma_strategy,7,36.8207,10036.8
+MSFT,ema_strategy,5,68.9066,10068.9
+MSFT,rsi_strategy,21,55.4347,10055.4
+META,sma_strategy,7,109.827,10109.8
+META,ema_strategy,3,21.276,10021.3
+META,rsi_strategy,20,-83.4307,9916.57
+NIFTY,sma_strategy,9,-254.229,9745.77
+NIFTY,ema_strategy,6,-163.556,9836.44
+NIFTY,rsi_strategy,14,-488.46,9511.54
