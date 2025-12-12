@@ -2,7 +2,7 @@
 
 **Quant Trends Simulator** is a high-performance C++ research engine for
 simulating and evaluating multiple technical trading strategies across
-multiple assets. It supports the full workflow: **strategy generation →
+multiple assets. It supports the workflow: **strategy generation →
 backtesting → PnL summary → visualization → insights**.
 
 ## Features
@@ -27,6 +27,20 @@ backtesting → PnL summary → visualization → insights**.
 -   Total PnL comparison
 -   Equity curves per asset & strategy
 -   Auto-generated PNGs
+
+## Datasets
+
+Datasets are stored in `data/` and contain daily OHLCV price data in CSV
+format.
+
+Each file includes: - Date, Open, High, Low, Close, Volume
+
+Assets included: - **AAPL.csv** -- Apple Inc. - **MSFT.csv** --
+Microsoft Corp. - **META.csv** -- Meta Platforms - **NIFTY.csv** -- NSE
+NIFTY 50 Index
+
+Any OHLCV dataset following this format can be used as a drop‑in
+replacement.
 
 ## Project Structure
 
